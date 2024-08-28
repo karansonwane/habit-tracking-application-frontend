@@ -1,0 +1,12 @@
+.loginmaindiv{
+    background: linear-gradient(to right, #82e993, #65e4f2), 
+    linear-gradient(to bottom, #5d5487, #f155cf);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    
+}
+.logindiv2{
+    margin-top: 130px;
+}

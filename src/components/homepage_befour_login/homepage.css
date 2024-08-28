@@ -1,0 +1,58 @@
+.maindiv{
+    background: linear-gradient(to right, #82e993, #65e4f2), 
+    linear-gradient(to bottom, #5d5487, #f155cf);
+    
+}
+.navbar1{
+    background: linear-gradient(to right, #06f62e, #0be0f7), 
+    linear-gradient(to bottom, #3409f4, #fe08c9);
+}
+.navbarlinks{
+    margin-right: 100px;
+}
+.bodyDiv{display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.footer{
+    background: linear-gradient(to right, #06f62e, #0be0f7), 
+    linear-gradient(to bottom, #3409f4, #fe08c9);
+}
+.footerlink{
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image{
+    border-radius: 20px;
+    width: 500px;
+    height: px;
+}
+.habbitsentanceheading{
+    margin-top: 50px;
+}
+.habbitsentanceparagrapg{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.calendericon{
+    color: linear-gradient(to right, #82e993, #65e4f2), 
+    linear-gradient(to bottom, #31199d, #f155cf);;
+    margin-right: 20px;
+}
+.divforcarosal{
+    display: flex;
+}
+.secoundimg{
+    border-radius: 20px;
+    height: 230px;
+}
+.loginandsignupbutton{
+    text-align: center;
+    margin-top: 30px;  
+    margin-bottom: 30px;  
+}
+.loginsignupbutton{
+    margin: 20px;
+}
