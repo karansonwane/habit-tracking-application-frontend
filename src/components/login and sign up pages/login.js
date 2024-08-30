@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.css'
+import { useNavigate } from 'react-router-dom';
 
-export default function login() {
+export default function Login() {
+
+  const[username,setUsername]=useState('');
+  const[password, setPassword]=useState('');
+  const navigate=useNavigate();
+
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    fetch('')
+    .then((data)=>{data.find})
+  }
+
+
+
   return (
    < >
+
    <div className="login-container loginmaindiv">
    <div className="container">
       <div className="row justify-content-center">
@@ -13,12 +28,13 @@ export default function login() {
             <div className="form-group">
               <label htmlFor="username">Username</label>
               <input type="text" className="form-control" placeholder="Enter email/number"
+               onChange={(e)=>setUsername(e.target.value)}
               />
-             
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
               <input type="password" className="form-control" placeholder="  Password"
+              onChange={(e)=>setPassword(e.target.value)}
               />
             </div>
             <button type="submit" className="btn btn-primary btn-block">Login</button>
