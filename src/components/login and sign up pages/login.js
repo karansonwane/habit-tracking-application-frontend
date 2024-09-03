@@ -11,7 +11,7 @@ export default function Login() {
   const handleSubmit=(e)=>{
     e.preventDefault();
     fetch('')
-    .then((data)=>{data.find})
+    // .then((data)=>{data.find})
   }
 
 
@@ -27,7 +27,7 @@ export default function Login() {
           <form >
             <div className="form-group">
               <label htmlFor="username">Username</label>
-              <input type="text" className="form-control" placeholder="Enter email/number"
+              <input type="text" className="form-control" placeholder="Enter email/Number"
                onChange={(e)=>setUsername(e.target.value)}
               />
             </div>

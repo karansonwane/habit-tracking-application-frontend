@@ -1,0 +1,17 @@
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+ 
+  
+ .new-amsterdam-regular{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  .homepagemaindiv{ background: linear-gradient(to right, #a0f5ac, #acbcf4), 
+    linear-gradient(to bottom, #796dad, #4fc7df);
+}

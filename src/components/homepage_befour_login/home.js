@@ -4,23 +4,33 @@ import { Carousel } from 'react-bootstrap';
 export default function home() {
   return (
     <>
-      <div className='maindiv container-fluid'>
+      <div className='maindiv '>
         
         {/* heder start*/}
         <nav className="navbar1 navbar bg-body-tertiary">
           <div className="container-fluid">
-            <a className="navbar-brand">Habit Tracker</a>
-            <form className="d-flex" role="search">
-              <a className="nav-link active navbarlinks" aria-current="page" href="#">Home</a>
-              <a className="nav-link active navbarlinks" aria-current="page" href="#">About Us</a>
-              <a className="nav-link active navbarlinks" aria-current="page" href="Login">Login</a>
-              <a className="nav-link active navbarlinks" aria-current="page" href="Signup">Sign Up</a>
+          <a className="navbar-brand logo pirata-one-regular">Habit Tracker</a>
+          <form className="d-flex new-amsterdam-regular" role="search">
+              <a className="nav-link active navbarlinks  new-amsterdam-regular " aria-current="page" href="#">Home</a>
+              <a className="nav-link active navbarlinks new-amsterdam-regular " aria-current="page" href="#">About Us</a>
+              <a className="nav-link active navbarlinks new-amsterdam-regular " aria-current="page" href="Login">Login</a>
+              <a className="nav-link active navbarlinks new-amsterdam-regular " aria-current="page" href="Signup">Sign Up</a>
             </form>
           </div>
         </nav>
         {/* heder end */}
         
         {/* body start */}
+
+        <div className=' maindivforheadlineimage'>
+
+          <img className=' headingimag' src='/1725220532157.jpg' />
+         <div className='headingimagheadlinediv'>
+         <h3 className='headingimagheadline'>"Achieve More with Consistency: Track Your Habits Daily"</h3>
+         
+<p className='headingimagheadlineparagraph'>"Our habit-tracking application empowers users to build and maintain positive habits by providing customizable tracking, insightful progress visuals, and motivational reminders. With features like goal setting, data backup, and community support, it simplifies habit management and helps users achieve their personal and professional goals effectively."</p>        
+         </div>
+        </div>
         <div>
           <div className="container-fluid bodyDiv" >
           <div className='container-fluid'>
@@ -110,17 +120,17 @@ export default function home() {
         </div>
 
 
-        <div className="loginandsignupbutton container-fluid">
-        <a class=" loginsignupbutton btn btn-primary" href="Login" role="button">Login</a>
-        <a class="loginsignupbutton btn btn-primary" href="signup" role="button">Sign Up</a>
+        <div className="loginandsignupbuttondiv container-fluid">
+        <a class=" loginandsignupbutton btn " href="Login" role="button">Login</a>
+        <a class="loginandsignupbutton btn " href="signup" role="button">Sign Up</a>
         </div>
 
         {/* body end */}
 
 
         {/* footer start */}
-        <nav classNameName="footer navbar bg-body-tertiary">
-          <div className="footer container-fluid">
+        <nav classNameName="footer footer2 navbar1 bg-body-tertiary">
+          <div className="footer footer2 container-fluid">
 
             <form className="d-flex" role="search">
               <h6 className=' footerlink'>About Us</h6>
@@ -132,7 +142,6 @@ export default function home() {
           </div>
         </nav>
         {/* footer end */}
-
       </div>
     </>
   )
