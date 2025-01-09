@@ -4,9 +4,7 @@ export default function Practice() {
 
     const [name,setName] =useState('');
 
-
-
-  return (
+  return ( 
   <>
   <h1 className='n'>{name}</h1>
 
