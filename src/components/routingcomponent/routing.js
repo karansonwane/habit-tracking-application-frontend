@@ -10,9 +10,10 @@ export default function routing() {
   
   <BrowserRouter>
    <Routes>
-    {/* <Route path="/" element={<Homepage />} /> */}
+
+    <Route path="dashboard" element={<Homepage />} />
       <Route path='/' element={<Home/>}></Route>
-      
+      {/* <Route path='/' element={<Login/>}></Route> */}
       <Route path='Login' element={<Login/>}></Route>
       <Route path='Signup' element={<Signup/>}></Route>
    </Routes>

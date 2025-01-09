@@ -1,3 +1,81 @@
+
+/* CustomCalendar.css */
+.calendermaindiv{
+  background: linear-gradient(to right, #18cb36, #41d70b), 
+  linear-gradient(to bottom, #eae7f6, #b7aeb5);;
+  width: 100%;
+  display: flex;
+}
+.calenderdiv{
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+
+.react-calendar {
+  background-color: hsl(77, 30%, 95%);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.react-calendar__navigation button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #0056b3;
+}
+
+.react-calendar__tile {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+.react-calendar__tile--now {
+  background-color: #ffebcc;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.react-calendar__tile:hover {
+  background-color: #f0f8ff;
+}
+
+.react-calendar__month-view__weekdays {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f7f9fb;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
 .pirata-one-regular {
     font-family: "Pirata One", system-ui;
     font-weight: 400;
@@ -12,6 +90,45 @@
     font-style: normal
   }
   
-  .homepagemaindiv{ background: linear-gradient(to right, #a0f5ac, #acbcf4), 
-    linear-gradient(to bottom, #796dad, #4fc7df);
+  .homepagemaindiv{ 
+    background: linear-gradient(to right, #e4e8e4, #dfe1eb), 
+    linear-gradient(to bottom, #dcdce0, #f9fcfd);
+    /* height: 700px; */
+}
+.addhabitbutton{
+  border-style: none;
+ border: solid 1px green;
+ border-radius: 15px;
+ background-color: rgb(33, 235, 91);
+ height: 40px;
+ width: 160px;
+ /* border-top-right-radius: 10px; */
+}
+.addhabitbuttondiv{
+  text-align: center;
+}
+.weelcomemessagedive{
+
+}
+.wacthimg{
+  width: 100%;
+}
+.welcomeheadlineinhomepage{
+  position: absolute;
+  color: #f1f5f2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 600px;
+margin-left: 650px;
+margin-top:100px;
+
+/* background-color: #01d11d; */
+
+}
+.footer{
+  background: linear-gradient(to right, #06f62e, #aded5f), 
+    linear-gradient(to bottom, #3409f4, #fe08c9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 50px;
+padding-bottom: 50px;
+    text-align: center;
 }
